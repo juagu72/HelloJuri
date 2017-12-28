@@ -16,5 +16,5 @@ HelloJuri::~HelloJuri()
 void HelloJuri::on_pushButton_clicked()
 {
 //	QMessageBox::aboutQt(this);
-	QMessageBox::about(this, "Hallo Juri", "Version 0.3");
+	QMessageBox::about(this, "Hallo Juri", "Version V0.3");
 }
