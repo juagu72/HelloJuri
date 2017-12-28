@@ -1,5 +1,7 @@
 #include "hellojuri.h"
 
+#include <QMessageBox>
+
 HelloJuri::HelloJuri(QWidget *parent)
 	: QMainWindow(parent)
 {
@@ -9,4 +11,9 @@ HelloJuri::HelloJuri(QWidget *parent)
 HelloJuri::~HelloJuri()
 {
 
+}
+
+void HelloJuri::on_pushButton_clicked()
+{
+	QMessageBox::aboutQt(this);
 }

@@ -12,6 +12,9 @@ public:
 	HelloJuri(QWidget *parent = 0);
 	~HelloJuri();
 
+public slots:
+	void on_pushButton_clicked();
+
 private:
 	Ui::HelloJuriClass ui;
 };
